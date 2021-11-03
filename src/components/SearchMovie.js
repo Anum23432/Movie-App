@@ -24,7 +24,7 @@ function SearchMovie() {
     return (
         <>
         <form className='form' onSubmit = {searchMovies}>
-            <label className='label' htmlFor='query'>Movie name</label>
+            <label className='label' htmlFor='query'>Movie Name</label>
             <input className='input' type ='text' name='query' placeholder ='Jurassic Park' value = {query} onChange={(e)=>setQuery(e.target.value)}/><br/>
             <button className='button' type ='submit' >Search</button>
         </form>
