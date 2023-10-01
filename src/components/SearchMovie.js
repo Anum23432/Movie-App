@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 function SearchMovie() {
-    //states- input query,movies
+    //state input query,movies
     const [query, setQuery] = useState('');
     
-    //create the state for movies and update that state  appropriately.
+    //creating the state for movies and update that state  appropriately.
     const [movies, setMovies] = useState([]);
 
     const searchMovies = async(e) => {
